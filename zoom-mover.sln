@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomMover.Core", "src\ZoomMover.Core\ZoomMover.Core.csproj", "{DB48076A-239B-495C-A78A-22CD63FC556A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomMover.UI", "src\ZoomMover.UI\ZoomMover.UI.csproj", "{3419C0F6-3CCB-41B5-867E-F24EAD71B69D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB48076A-239B-495C-A78A-22CD63FC556A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB48076A-239B-495C-A78A-22CD63FC556A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB48076A-239B-495C-A78A-22CD63FC556A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB48076A-239B-495C-A78A-22CD63FC556A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3419C0F6-3CCB-41B5-867E-F24EAD71B69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3419C0F6-3CCB-41B5-867E-F24EAD71B69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3419C0F6-3CCB-41B5-867E-F24EAD71B69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3419C0F6-3CCB-41B5-867E-F24EAD71B69D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72FDE66-0F99-4199-B9DA-AB1F0872F39B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿<Window x:Class="ZoomMover.UI.Views.DisplayView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" 
+        TextElement.FontSize="14"
+        TextElement.FontWeight="Regular"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"          
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"     
+        BorderThickness="2"
+        BorderBrush="Black"
+        WindowStyle="None"
+        DataContext="{Binding Display, Mode=OneWay, Source={StaticResource Locator}}"
+        Topmost="True"
+        Height="300"
+        Width="300">
+    <Viewbox>
+        <Grid>
+            <Label Content="{Binding DisplayNumber, Mode=OneWay}"
+               FontSize="150"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center" />
+        </Grid>
+    </Viewbox>
+</Window>

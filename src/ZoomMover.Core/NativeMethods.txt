@@ -1,0 +1,4 @@
+﻿EnumDisplayDevices
+GetWindowPlacement
+SetWindowPlacement
+ShowWindow
